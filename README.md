@@ -7,4 +7,4 @@ This is a simple react email starter with the single addition of `esbuild@0.27.3
 
 Removing the `esbuild` dev dependency fixes it.
 
-This also happens in a pnpm monorepo when another application has the `eslint` dev dependency that mismatches with the one from the preview server (0.25.10).
+This also happens in a pnpm monorepo when another application has the `esbuild` dev dependency that mismatches with the one from the preview server (0.25.10).
